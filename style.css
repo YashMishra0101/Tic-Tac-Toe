@@ -15,7 +15,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, #6a82fb, #fc5c7d);   
+    background-image: linear-gradient(to right, #6a82fb, #fc5c7d);  
+    
 }
 .game-info{
     margin-top: 1.5rem;
@@ -34,6 +35,7 @@
     grid-template-rows:repeat(3,6rem);
     place-content: center;
     user-select: none;
+    margin-bottom: 2rem;
 
 }
 
