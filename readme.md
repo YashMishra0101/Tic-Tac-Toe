@@ -10,7 +10,7 @@ This is a Tic Tac Toe game created as a practice project using HTML, CSS, and Ja
 
 - Classic Tic Tac Toe game with a 3x3 game board.
 - Two players can play against each other on the same device.
-- Interactive animations for a visually appealing experience.
+- Interactive animations for a visually appealing egitxperience.
 - Reset option to restart the game at any time.
 
 ## Technologies Used
