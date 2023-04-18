@@ -38,9 +38,11 @@ const  winningPositions=[
 const swapTurn=()=>{
     if(currentPlayer==="🧛🏼"){
         currentPlayer=" 👹"
+       
     }
     else{
         currentPlayer="🧛🏼"
+       
     }
     gameInfo.innerText=`Current Player - ${currentPlayer}`
 }
@@ -101,6 +103,8 @@ const handelClick=(index)=>{
         gameGrid[index]=currentPlayer;
         swapTurn();
         checkGameover();
+        
+        
     }
     }
     
@@ -108,10 +112,11 @@ const handelClick=(index)=>{
         box.addEventListener('click',()=>{
             handelClick(index); 
             playtik();
+            
         }) 
     })
 
-   
+
 newGameBtn.addEventListener('click',initGame)
 
 function playAudio() { 
