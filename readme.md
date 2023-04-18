@@ -21,7 +21,7 @@ This is a Tic Tac Toe game created as a practice project using HTML, CSS, and Ja
 
 ## Animation and Audio
 
-- The game includes interactive animations to enhance the visual experience, including a 30-degree rotation of boxes when clicked.
+- The game includes interactive animations to enhance the visual experience, including changing color of boxes when clicked.
 - The game includes animations for highlighting the winning cells and displaying the game result.
 - Audio is played when a player wins the game, and also when a player clicks on a game cell to make a move.
 
