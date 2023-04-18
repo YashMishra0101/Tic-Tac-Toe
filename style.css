@@ -8,16 +8,6 @@
 }
 
 
-
-@media (max-width: 450px) {
-    .tic-tac-toe {
-        grid-template-rows: repeat(3, 25vw); 
-        grid-template-columns: repeat(3, 25vw);  
-    } 
-    
-}
-
-
 .wrapper{
     width: 100vw;
     height: 100vh;
@@ -40,8 +30,8 @@
 .tic-tac-toe{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns:repeat(3,8vw);
-    grid-template-rows:repeat(3,8vw);
+    grid-template-columns:repeat(3,6rem);
+    grid-template-rows:repeat(3,6rem);
     place-content: center;
     user-select: none;
 
@@ -53,7 +43,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;;
-    font-size:6vw; /* sccren ke according font size change honga*/
+    font-size:4rem; /* sccren ke according font size change honga*/
     cursor: pointer;
     background-image: linear-gradient(to right, #9e3c3c, #652712);  
     overflow: hidden;
