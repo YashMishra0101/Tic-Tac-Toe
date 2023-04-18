@@ -112,6 +112,7 @@ const handelClick=(index)=>{
         box.addEventListener('click',()=>{
             handelClick(index); 
             playtik();
+            newGameBtn.classList.add("active");
             
         }) 
     })
