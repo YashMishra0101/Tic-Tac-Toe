@@ -68,16 +68,16 @@ function checkGameover(){
             playAudio();
         }
 
-        else if(gameGrid[[0]]!=='' && gameGrid[[1]]!=='' && gameGrid[[2]]!==''  && gameGrid[[3]]!==''  &&
-        gameGrid[[4]]!=='' && gameGrid[[5]]!=='' && gameGrid[[5]]!=='' && gameGrid[[6]]!=='' &&
-        gameGrid[[7]]!=='' &&  
-        gameGrid[[8]]!==''){
-        gameInfo.innerText = "Game Tied !";
-        newGameBtn.classList.add("active");
-        playgOver();
-        }
-
     });
+
+    if(gameGrid[[0]]!=='' && gameGrid[[1]]!=='' && gameGrid[[2]]!==''  && gameGrid[[3]]!==''  &&
+    gameGrid[[4]]!=='' && gameGrid[[5]]!=='' && gameGrid[[5]]!=='' && gameGrid[[6]]!=='' &&
+    gameGrid[[7]]!=='' &&  
+    gameGrid[[8]]!==''){
+    gameInfo.innerText = "Game Tied !";
+    newGameBtn.classList.add("active");
+    playgOver();
+    }
     
     if(answer === "🧛🏼" || answer === "👹" ) {
         gameInfo.innerText = `Winner Player - ${answer}`;
