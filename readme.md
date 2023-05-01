@@ -31,10 +31,13 @@ This is a Tic Tac Toe game created as a practice project using HTML, CSS, and Ja
 If you would like to contribute to this Tic-Tac-Toe project, please open an issue or submit a pull request. All contributions are welcome!
 
 
-## Feedback
+## Contact 
 
-If you have any questions or suggestions, please feel free to contact me on LinkedIn 
-https://www.linkedin.com/in/yash-mishra-356280223
+If you have any questions or suggestions, please feel free to contact me on:
+
+- LinkedIn: https://www.linkedin.com/in/yash-mishra-356280223
+- Twitter: https://twitter.com/YashRKMishra1
+
 
 
 
