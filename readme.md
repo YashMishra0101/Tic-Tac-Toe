@@ -6,6 +6,10 @@
 
 This is a Tic Tac Toe game created as a practice project using HTML, CSS, and JavaScript. The game also includes animations and background audio for an enhanced user experience.
 
+## 🌐 Project Demo 
+
+To see a live demo of the project, please visit :https://yashmishra-tic-tac-toe.netlify.app/
+
 ## Game Features
 
 - Classic Tic Tac Toe game with a 3x3 game board.
