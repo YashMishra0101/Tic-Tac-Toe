@@ -1,8 +1,8 @@
 # Tic Tac Toe Game
 
-<img src="./assects/Screenshot (257).png">
+![Screenshot](./assects/Screenshot%20(257).png)
 
-<img src="./assects/Screenshot (258).png">
+![Screenshot](./assects/Screenshot%20(258).png)
 
 This is a Tic Tac Toe game created as a practice project using HTML, CSS, and JavaScript. The game also includes animations and background audio for an enhanced user experience.
 
